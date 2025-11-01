@@ -20,13 +20,11 @@ def divide(a, b):
     else:
         return a / b
 
-
 if __name__ == "__main__":    
     while True:
 
         num1 = int(input("Please enter your first number: "))
         num2 = int(input("Please enter your second number: "))
-
 
         operation = input("Please enter which operation you'd like to perform (+, -, *, /), type q to quit: ")
 
